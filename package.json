@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-"scripts": {
-  "test": "jest",
-  "test:watch": "jest --watch",
-  "start": "node app.js"
-},
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "start": "node app.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "npm": "^10.7.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12"
   }
 }
