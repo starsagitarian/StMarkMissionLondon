@@ -1,0 +1,17 @@
+{
+  "name": "stmarkmissionlondon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "test": "jest",
+  "test:watch": "jest --watch",
+  "start": "node app.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^10.7.0"
+  }
+}
